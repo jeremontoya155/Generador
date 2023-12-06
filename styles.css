@@ -1,0 +1,64 @@
+
+.swal2-popup {
+color:black;
+}
+
+.swal2-title {
+color: rgb(13, 11, 11) !important;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background: linear-gradient(45deg, #33b1b1, #1a6e6e); /* Fondo con degradado */
+overflow: hidden;
+}
+
+h1 {
+font-size: 4em;
+margin-bottom: 20px;
+text-align: center;
+color: white; /* Color del texto blanco */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+#preview {
+width: 100%;
+max-width: 400px;
+margin-bottom: 20px;
+border: 5px solid white; /* Borde blanco */
+border-radius: 10px; /* Esquinas redondeadas */
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Sombra exterior */
+}
+
+#cameraSelector {
+margin-bottom: 20px;
+color: white; /* Color del texto blanco */
+}
+
+/* Estilo para el mensaje personalizado de SweetAlert */
+.mensaje-personalizado {
+text-align: left;
+color: white;
+}
+
+/* Estilo adicional para el botón de SweetAlert */
+.mi-boton-clase {
+background-color: #ff7675; /* Color de fondo */
+color: white; /* Color del texto */
+border: none; /* Sin borde */
+padding: 10px 20px; /* Espaciado interno */
+border-radius: 5px; /* Esquinas redondeadas */
+cursor: pointer;
+transition: background-color 0.3s; /* Transición suave */
+}
+
+.mi-boton-clase:hover {
+background-color: #d63031; /* Cambiar color en el hover */
+}
